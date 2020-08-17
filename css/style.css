@@ -220,13 +220,14 @@ a {
 	display: flex;
 	justify-content: space-between;
 	margin: 0;
+	margin-right: 10;
 	padding: 0;
 	list-style: none;
 }
 
 .feature-item {
 	width: 300px;
-	text-align: center;
+	text-align: justify;
 	
 }
 
