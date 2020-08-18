@@ -2,7 +2,9 @@
 
 * HTML5 and CSS3
 * PHP et Symfony
-* SASS et 
+* SASS
+* Bootstrap
+* Respsonsive Design 
 
 
 
