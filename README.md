@@ -1,18 +1,8 @@
-# Barbershop
-
-
-
-
-
-# Features:
+# Barbershop Noisy centre- ville
 
 * HTML5 and CSS3
-* Customizable & Organized
-* Multi Page
-* Flexible & Multipurpose
-* Responsive
-* Unique & Modern Design
-
+* PHP et Symfony
+* SASS et 
 
 
 
