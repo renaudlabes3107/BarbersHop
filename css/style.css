@@ -217,17 +217,26 @@ a {
 }
 
 .features-list {
-	display: flex;
-	justify-content: space-between;
+	display: flex; /**/
+	justify-content: center; /*jumeler avec agrandissement avec widthS*/
 	margin: 0;
 	margin-right: 10;
 	padding: 0;
 	list-style: none;
+	width: 1100px; /*Nous avons aggrandi pour restreindre l'affichage des cadres qu'on a arrangé avec 
+	justify content : center*/
+	flex-wrap: wrap; /*si l'objet est trop large ca retourne à la ligne*/
 }
+
 
 .feature-item {
 	width: 300px;
 	text-align: justify;
+	padding: 10px 10px 10px 10px; /*Pour laisser de l'espace à l'intérieur de chaque cadre*/
+	margin: 10px 10px 10px 10px; /*Pour laisser de l'espace à l'extérieur  de chaque cadre*/
+	border: 2px solid white; /*création d'une bordure pour chaque feature items*/
+	border-radius: 7px; /*arrondit les bordures.*/
+
 	
 }
 
@@ -239,8 +248,8 @@ a {
 	line-height: 42px;
 }
 
-.feature-item h3::after {
-	content: "";
+.feature-item h3::after { /* élément HTML vide sur fond blanc ;carré rotation de 45°*/
+	content: ""; 
 	position: absolute;
 	bottom: -30px;
 	left: 50%;
