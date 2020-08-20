@@ -86,8 +86,7 @@ a {
 	align-items: center;
 	font-size: 16px;
 	line-height: 20px;
-	color: #ffffff;
-	background-color: transparent;
+
 }
 
 .inner-page .main-navigation {
@@ -262,6 +261,7 @@ a {
 
 .feature-item p {
 	margin: 0 10px;
+	font-size: 20px;
 }
 
 .index-columns {
@@ -318,15 +318,20 @@ a {
 }
 
 .gallery-content {
-	height: 164px;
+	height: 190px;
 	margin: 0;
 	background-color: #cccccc;
-	border: 7px solid #ffffff;
+	border: 7px solid #287e49;
 }
 
 .gallery-content img {
 	width: 286px;
 	height: 164px;
+}
+
+.hygiene{
+	height: 70px;
+	background: blue;
 }
 
 .gallery-button {
