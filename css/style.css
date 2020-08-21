@@ -331,7 +331,8 @@ a {
 
 .hygiene{
 	height: 150px;
-	background: linear-gradient(white black);
+	font-size: 20px ;
+	
 }
 
 .gallery-button {
