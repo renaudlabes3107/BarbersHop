@@ -330,8 +330,8 @@ a {
 }
 
 .hygiene{
-	height: 70px;
-	background: blue;
+	height: 150px;
+	background: linear-gradient(white black);
 }
 
 .gallery-button {
